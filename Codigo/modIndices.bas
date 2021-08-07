@@ -271,7 +271,7 @@ On Error GoTo Fallo
     NumNPCs = Val(Leer.GetValue("INIT", "NumNPCs"))
     'Call Leer.Initialize(DirDats & "\NPCs-HOSTILES.dat")
     'NumNPCsHOST = Val(Leer.GetValue("INIT", "NumNPCs"))
-    ReDim NpcData(1000) As NpcData
+    ReDim NpcData(10000) As NpcData
     Trabajando = "Dats\NPCs.dat"
     'Call Leer.Initialize(DirDats & "\NPCs.dat")
     'MsgBox "  "
